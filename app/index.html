@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Salamander</title>
+<link href="https://fonts.googleapis.com/css?family=Raleway:100|Roboto+Condensed:700" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="/interactive/2019/08/salamander/css/styles.min.css">
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.1/ScrollMagic.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/plugins/TextPlugin.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/plugins/ScrollToPlugin.min.js"></script>
+
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script> -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.min.js"></script>
+<!-- <script src="/interactive/2019/08/salamander/js/library/masonry.pkgd.min.js"></script> -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+</head>
+
+<body class="is-loading">
+  <!--[if lt IE 8]>
+          <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+
+    <div class="main-container">
+
+      <div class="text-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod, velit ut eleifend condimentum, tellus lectus consequat mi, vitae egestas quam enim at augue. Curabitur vestibulum molestie lacus, faucibus feugiat odio porta eu. Quisque congue diam vel eros ornare, eu congue sapien efficitur. Suspendisse potenti. Integer sed molestie ipsum. Duis et interdum nibh, in lacinia risus. Nullam ac tellus eu ipsum pulvinar egestas ut sit amet tellus. Quisque in blandit eros, ut ultrices quam. Vivamus nisi magna, molestie in finibus vitae, iaculis ut dolor. Aenean eget ipsum odio. Proin gravida ligula nec felis consectetur, nec eleifend dolor aliquam. Donec cursus dui at libero euismod, eget iaculis ligula vehicula. Mauris aliquet lorem magna, in elementum eros pharetra eget. Maecenas vehicula vestibulum nunc sit amet placerat. Donec et lacus posuere, vulputate nisi nec, sollicitudin metus.</p>
+      </div>
+
+        <img class="fullwidthimg" src="https://news.northeastern.edu/wp-content/uploads/2017/08/081417AGa_01628-copy-copy.jpg" />
+
+
+      <div class="text-content">
+        <p>Aenean at sem vitae nisi mattis luctus a eu nulla. Duis faucibus, odio sit amet viverra rutrum, mauris dolor consequat elit, at mattis purus ipsum non tellus. Proin porttitor augue enim, nec consectetur nunc sodales at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc sit amet vulputate tellus, nec aliquam justo. Nulla id posuere elit. Pellentesque tincidunt neque eget aliquam faucibus. Nullam quis venenatis odio. In hac habitasse platea dictumst. Morbi est nisl, elementum id ultrices vitae, finibus eget est. Nulla commodo est vel arcu varius, id vestibulum felis dignissim. Sed consequat ipsum eget lorem ullamcorper, vel faucibus sem condimentum.</p>
+      </div>
+
+      <div class="pinned">
+        <div class="svg-container"></div>
+        <ul class="salamander-facts">
+          <li id="fact1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at pretium dolor. Nunc mollis consectetur vulputate.</li>
+          <li id="fact2">Fusce tempor tempor sagittis. Nam sit amet lacinia nisi.</li>
+          <li id="fact3">Etiam molestie lobortis enim, et ultrices arcu. Sed pulvinar suscipit ornare. Ut faucibus vestibulum lorem. Morbi at convallis odio.</li>
+          <li id="fact4">Aliquam erat volutpat. Proin tincidunt egestas magna sit amet laoreet. Nulla tortor lacus, posuere sed augue a, ultricies viverra ipsum.</li>
+        </ul>
+      </div>
+
+      <div class="text-content">
+
+        <p>Aenean at sem vitae nisi mattis luctus a eu nulla. Duis faucibus, odio sit amet viverra rutrum, mauris dolor consequat elit, at mattis purus ipsum non tellus. Proin porttitor augue enim, nec consectetur nunc sodales at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc sit amet vulputate tellus, nec aliquam justo. Nulla id posuere elit. Pellentesque tincidunt neque eget aliquam faucibus. Nullam quis venenatis odio. In hac habitasse platea dictumst. Morbi est nisl, elementum id ultrices vitae, finibus eget est. Nulla commodo est vel arcu varius, id vestibulum felis dignissim. Sed consequat ipsum eget lorem ullamcorper, vel faucibus sem condimentum.</p>
+
+        <p>Vivamus felis quam, cursus ac erat non, imperdiet suscipit turpis. Aenean et mattis leo. Duis consectetur justo lectus, feugiat lobortis ligula facilisis iaculis. Nulla sed interdum augue, id accumsan purus. Donec at diam et enim fringilla condimentum ut pharetra ante. Nulla ullamcorper odio dui, eu facilisis lacus gravida ut. Nunc non imperdiet ligula, a hendrerit augue. Ut et semper dui, non convallis ipsum. Sed tempus, augue vel semper ultricies, mi mi tempus erat, ac pretium turpis tortor eget turpis. Curabitur eget dui eu neque maximus consequat eu eget sem. Mauris nisl ex, volutpat eu nisi in, condimentum finibus justo. Vestibulum nulla ligula, mattis scelerisque dapibus sed, egestas ut neque. Sed mollis libero sit amet nunc mattis pretium. Donec nec ornare nunc, cursus tempus massa. Maecenas viverra orci justo, ac bibendum quam consectetur id. Phasellus lobortis dignissim lorem vel ultrices.</p>
+      </div>
+
+
+    </div>
+
+  <!--build:js /interactive/2019/08/salamander/js/main.min.js -->
+  <script src="js/plugins/scrollmagicControls.js"></script>
+  <script src="js/plugins/init.js"></script>
+  <!--endbuild-->
+
+</body>
+
+</html>
