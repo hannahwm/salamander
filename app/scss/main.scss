@@ -35,42 +35,72 @@ body {
 ul.salamander-facts {
   position: absolute;
   top: 0;
-  left: calc(50% - 200px);
+  left: calc(50% - 150px);
   list-style-type: none;
   padding: 0;
-  width: 400px;
-  height: 424px;
+  width: 300px;
+  height: 315px;
   margin: 0 auto;
-  font-size: 16px;
+  font-size: 14px;
+
+  @media screen and (min-width: 600px) {
+    width: 400px;
+    height: 424px;
+    left: calc(50% - 200px);
+    font-size: 16px;
+  }
 
   li {
-    width: 200px;
+    width: 100px;
     text-align: left;
+    @media screen and (min-width: 600px) {
+      width: 200px;
+    }
   }
 }
 
 #fact1 {
   position: absolute;
-  bottom: 360px;
-  right: -20px;
+  bottom: 270px;
+  right: -30px;
+
+  @media screen and (min-width: 600px) {
+    bottom: 360px;
+    right: -20px;
+  }
 }
 
 #fact2 {
   position: absolute;
-  top: 370px;
-  right: -120px;
+  top: 280px;
+  right: -50px;
+
+  @media screen and (min-width: 600px) {
+    top: 370px;
+    right: -120px;
+  }
 }
 
 #fact3 {
   position: absolute;
-  bottom: 430px;
-  left: -70px;
+  bottom: 320px;
+  left: -20px;
+
+  @media screen and (min-width: 600px) {
+    bottom: 430px;
+    left: -70px;
+  }
 }
 
 #fact4 {
   position: absolute;
-  bottom: 150px;
-  left: -130px;
+  bottom: 120px;
+  left: -30px;
+
+  @media screen and (min-width: 600px) {
+    bottom: 150px;
+    left: -130px;
+  }
 }
 
 svg {
@@ -95,10 +125,15 @@ svg {
 }
 
 .svg-container {
-  height: 424px;
+  height: 315px;
   position: relative;
-  width: 600px;
+  width: 230px;
   margin: 0 auto;
+
+  @media screen and (min-width: 600px) {
+    width: 600px;
+    height: 424px;
+  }
 }
 
 .fullwidthimg {
